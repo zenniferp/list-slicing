@@ -66,8 +66,9 @@ def first_three(input_list):
     ['Jan', 'Feb', 'Mar']
 
     """
+    #Slice input list from first to third element. First index inclusive, last is exclusive.
 
-    return []
+    return input_list[:3]
 
 
 def last_five(input_list):
