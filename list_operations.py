@@ -175,7 +175,8 @@ def replace_middle(input_list):
     True
 
     """
-
+    # assign a list of 42 and 37 to sliced list from index 2 to -2
+    input_list[2:-2] = [42,37]
     pass
 
 
