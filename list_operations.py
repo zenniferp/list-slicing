@@ -53,8 +53,8 @@ def top(input_list):
     ['Jan', 'Feb']
 
     """
-
-    return []
+    #slice from index zero up to the last. Remember the last one is exclusive.
+    return input_list[:-1]
 
 
 def first_three(input_list):
