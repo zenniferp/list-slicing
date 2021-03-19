@@ -93,8 +93,8 @@ def middle(input_list):
     [6, 9, 12, 15, 18, 21]
 
     """
-
-    return []
+    # slice out the first two and the last two elements by using the right range.
+    return input_list[2:-2]
 
 
 def inner_four(input_list):
