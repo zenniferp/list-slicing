@@ -192,6 +192,9 @@ def delete_third_and_seventh(input_list):
 
     """
 
+    #Delete list elements at index 2 and 6 using del input_list[index_number]
+    del input_list[2]
+    del input_list[5]
     pass
 
 
