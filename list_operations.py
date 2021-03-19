@@ -39,9 +39,9 @@ def last(input_list):
 
     """
 
-    #Return the popped item from the input list
+    #return the last index
 
-    return input_list.pop()
+    return input_list[-1]
 
 
 def top(input_list):
@@ -192,7 +192,7 @@ def delete_third_and_seventh(input_list):
 
     """
 
-    #Delete list elements at index 2 and 6 using del input_list[index_number]
+    #Delete list elements at index 2 and 5 using del input_list[index_number]
     del input_list[2]
     del input_list[5]
     pass
@@ -211,7 +211,8 @@ def delete_middle(input_list):
     True
 
     """
-
+    # delete slice starting at index 2 and end at -2
+    del input_list[2:-2]
     pass
 
 
