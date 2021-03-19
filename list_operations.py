@@ -137,7 +137,8 @@ def replace_head(input_list):
     True
 
     """
-
+    #slice the first index. Assign that sliced list to a new list with 42.
+    input_list[0] = 42
     pass
 
 
