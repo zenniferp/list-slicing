@@ -137,7 +137,7 @@ def replace_head(input_list):
     True
 
     """
-    #slice the first index. Assign that sliced list to a new list with 42.
+    #assign the index of the list to the new number OR slice the first index. Assign that sliced list to a new list with 42.
     input_list[0] = 42
     pass
 
@@ -153,6 +153,9 @@ def replace_third_and_last(input_list):
     True
 
     """
+    #Assign 37 to list elements at index 2 and -1
+    input_list[2] = 37
+    input_list[-1] = 37
 
     pass
 
