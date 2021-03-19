@@ -23,7 +23,7 @@ def tail(input_list):
     ['Feb', 'Mar']
 
     """
-    #Create a new list by popping the the first index in the inputted list
+    #Create a new list by slicing the the first index in the inputted list
 
     new_list = input_list[1:]
     return new_list
@@ -39,7 +39,9 @@ def last(input_list):
 
     """
 
-    return []
+    #Return the popped item from the input list
+
+    return input_list.pop()
 
 
 def top(input_list):
