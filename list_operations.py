@@ -23,8 +23,10 @@ def tail(input_list):
     ['Feb', 'Mar']
 
     """
+    #Create a new list by popping the the first index in the inputted list
 
-    return []
+    new_list = input_list[1:]
+    return new_list
 
 
 def last(input_list):
