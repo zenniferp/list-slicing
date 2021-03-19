@@ -1,16 +1,17 @@
 """Utilities for manipulating lists."""
 
 
-def head(input_list):
+def head(input_list): #Accept input list
     """Return the first item of the input list.
-
+    
     For example:
 
       >>> head(['Jan', 'Feb', 'Mar'])
       'Jan'
     """
-
-    return None
+    #Return first element of list by using index 0
+    
+    return input_list[0]
 
 
 def tail(input_list):
