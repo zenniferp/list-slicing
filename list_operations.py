@@ -106,8 +106,8 @@ def inner_four(input_list):
     [6, 9, 12, 15]
 
     """
-
-    return []
+    #slice starting index 2 up to 6
+    return input_list[2:6]
 
 
 def inner_four_end(input_list):
