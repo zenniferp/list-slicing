@@ -15,7 +15,7 @@ def custom_len(input_list):
         8
 
     """
-
+# comment
     return 0
 
 
